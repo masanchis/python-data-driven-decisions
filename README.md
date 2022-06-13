@@ -24,4 +24,4 @@ The main steps to follow are going to be:
 7- Get quantitative and qualitative conclusions. 
 
 
-
+The record of this project is going to be done weekly (and can be found in the Wiki section). Besides, an in-depth explanation of the programming part can be found on the code file itlsef. 
