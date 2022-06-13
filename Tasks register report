@@ -1,18 +1,18 @@
 #FIRST WEEK REPORT. From Monday 6th June to Friday 10th June.
 - Where from
-  Hypothesis to validate: relation between GDP growth and some social and economical indicators.
+  Hypothesis to validate: relationship between GDP growth and social and economical indicators.
   Python language.
   "Our World in Data" as database.
  - Objective of the code
- Being able to take the data from the database files, perform statistical computations on them and make qualitative conclusions. 
- - Developed:
+ Being able to take the data from the database files, perform statistical computations on them and get useful numerical and visual results to make conclusions. 
+ - Development:
  As we were not experts through Python, we started learning the fundamentals and basic functions throughout some videos: one recorded internally by Capgemini and the other ones mainly from Pluralsight courses, such as Python for Data Analysts, Pandas Fundamentals and Finding Relationships in Data.
  At the same time, we began programming the initial functions to open the files and have an overview of the data. Through this inspection of data, we observed that:
- - Data was not normalized. 
- - Depending on the indicator, its corresponding file was ordered in a different way.
+    - Data was not normalized. 
+    - Depending on the indicator, its corresponding file was ordered in a different way.
  Having in mind that these two observations implied a "problem" for us, we realized that the files (CSVs) available in the webpage Our World in Data were being extracted from other sources, mainly FAO. So, we decided to extract directly the data
- from there getting the benefits of having data normalized and unified.
- We had 68 files that could be related to GDP growth. In each one, the information cointained categories of country, year, units, value and others (consider not relevant for our study). 
+ from there, getting the benefits of having data normalized and unified.
+ We had 68 files that could be related to GDP growth. In each one, the information cointained categories of country, year, units, value and others (these last ones considered not relevant for our study). 
  Therefore, what we made was putting all the files in the same table, joining data basing on the conditions of same country and year. So, what we got was a table containing the value of each indicator in each year and region. 
  It is important to note that indicators´files were not all same size, some registering more ancient historical values or more in depth data by region than others.
  
